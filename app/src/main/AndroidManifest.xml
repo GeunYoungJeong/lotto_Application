@@ -9,10 +9,6 @@
         android:roundIcon="@drawable/money"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".ConstraintActivity"
-            android:theme = "@style/AppTheme.Constellation" />
-        <activity android:name=".TestActivity"></activity>
         <activity android:name=".ResultActivity"
             android:theme="@style/AppTheme.Result"/>
         <activity android:name=".NameActivity"
