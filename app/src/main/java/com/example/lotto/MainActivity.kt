@@ -27,5 +27,9 @@ class MainActivity : AppCompatActivity() {
         nameCard.setOnClickListener {
             startActivity(Intent(this, NameActivity::class.java))
         }
+
+        goDeveloperInfo.setOnClickListener {
+            startActivity(Intent(this, DeveloperInfoActivity::class.java))
+        }
     }
 }

@@ -8,6 +8,30 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:paddingRight="8dp"
+            android:text="개발자 정보"
+            android:textAllCaps="false"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/goDeveloperInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/info_icon" />
+    </LinearLayout>
+
     <androidx.cardview.widget.CardView
         android:id="@+id/randomCard"
         android:layout_width="match_parent"

@@ -9,13 +9,16 @@
         android:roundIcon="@drawable/money"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ResultActivity"
-            android:theme="@style/AppTheme.Result"/>
-        <activity android:name=".NameActivity"
-            android:theme="@style/AppTheme.Name"/>
-        <activity android:name=".ConstellationActivity"
-            android:theme="@style/AppTheme.Constellation">
-        </activity>
+        <activity android:name=".DeveloperInfoActivity"></activity>
+        <activity
+            android:name=".ResultActivity"
+            android:theme="@style/AppTheme.Result" />
+        <activity
+            android:name=".NameActivity"
+            android:theme="@style/AppTheme.Name" />
+        <activity
+            android:name=".ConstellationActivity"
+            android:theme="@style/AppTheme.Constellation"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
